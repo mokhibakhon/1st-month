@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-26 04:46:07 PM"/>
+        <attribute name="created" value="dXNlcjtXSU4tTDJEMTU0MTJLOU47MjAyNC0wMi0yNjswNDo0MTo1NyBQTTsyNjcw"/>
+        <attribute name="edited" value="dXNlcjtXSU4tTDJEMTU0MTJLOU47MjAyNC0wMi0yNjswNDo0NjowNyBQTTsxOzI3Nzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a%2=0">
+                <then>
+                    <assign variable="b" expression="a^2"/>
+                    <output expression="b" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="b" expression="a^3"/>
+                    <output expression="b" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
